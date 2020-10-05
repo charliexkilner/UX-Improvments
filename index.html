@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/2fd782012f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -17,7 +18,7 @@
                 GTP STORE | <i>GTP Store is the finest in luxury hand-made carpets!</i>
             </header>
     </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-xl navbar-light bg-light">
             <a class="navbar-brand" href="#"><span class="g">G</span><span class="s">S</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -41,12 +42,22 @@
                     <a class="dropdown-item" href="#">Fellow GHANAIANS</a>
                     <a class="dropdown-item" href="#">NuStyle</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Lockdown</a>
+                    <a class="dropdown-item" href="#">Lockdown <span class="badge badge-primary">New!</span></a>
                   </div>
                 </li>
               </ul>
               <div class="btn-yes">
-              <button type="button" class="btn btn-primary btn-account"><i class="fas fa-user-circle"></i> Account</button>
+                    <div class="btn-group">
+                            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-user-circle"></i> Account
+                            </button>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="#"><i class="fas fa-tag"></i> Your Orders</a>
+                              <a class="dropdown-item" href="#"><i class="fas fa-heart"></i> Your Likes</a>
+                              <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                            </div>
+                          </div>
               <button type="button" class="btn btn-primary"><i class="fas fa-shopping-basket"></i> Cart <span class="badge badge-light">4</span></button>
               </div>
 

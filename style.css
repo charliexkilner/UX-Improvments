@@ -3,7 +3,7 @@
     left: 50%;
     position: absolute;
     color: green;
-    font-size: 34px !important;
+    font-size: 50px !important;
 }
 .navbar{
     height: 100px;
@@ -16,6 +16,7 @@ header{
 text-align: center;
     font-size: 14px;
     padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .btn-yes{
@@ -30,6 +31,7 @@ button{
 }
 .s{
     color: #fdd932 !important;
+    
 }
 .g{
     color: green !important;
@@ -39,4 +41,7 @@ button{
 }
 .nav-link:hover{
     text-decoration: underline !important;
+}
+*{
+    font-family: 'Nunito', sans-serif;
 }
