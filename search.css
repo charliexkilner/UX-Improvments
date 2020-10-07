@@ -1,0 +1,26 @@
+header{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .create{
+   color: green;
+   text-align: right
+    }
+
+    .btn{
+        border-radius: 0 !important;
+    }
+
+    .form-control{
+        border-radius: 0 !important;
+    }
+
+    .navbar-brand{
+        color: green;
+        font-weight: 800;
+        font-size: 25px !important;
+    }
+    .navbar{
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
