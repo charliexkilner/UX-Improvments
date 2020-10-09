@@ -1,0 +1,14 @@
+.btn-yes{
+    padding: 10px
+}
+
+.btn{
+    border-radius: 0 !important;
+}
+
+.form-control{
+    border-radius: 0 !important;
+}
+.dropdown-item:hover{
+    text-decoration: underline !important;
+}
