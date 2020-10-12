@@ -14,15 +14,13 @@
     
         <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="arrow">↑</span> back to top</button>
 
-        
     <nav class="navbar navbar-expand-xl navbar-light bg-light">
-        <a href="#" class="navbar-brand">Brand</a> <!-- COMPANY LOGO/TEXT-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar5">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <a href="#" class="navbar-brand">Brand</a>
         <div class="navbar-collapse collapse justify-content-stretch" id="navbar5">
-            <br>
-            <form class="ml-3 my-auto d-inline w-75"> <!-- WIDTH = 75%-->
+            <form class="ml-3 my-auto d-inline w-75 .d-sm-none .d-md-block"> <!-- WIDTH = 75%-->
                 <div class="input-group">
                         <div class="btn-group"> <!-- START OF CATEOGORY SELECTOR-->
                                 <button type="button" class="btn  btn-secondary rounded-left ">All</button>
@@ -39,12 +37,14 @@
                                   <a class="dropdown-item" href="#">Sale  <span class="badge badge-warning"> 40% off</span></a>
                                 </div>
                               </div>
-                    <input type="search" class="form-control border-left-0" placeholder="Search...">
+                    <input type="search" class="form-control border-left-0 " placeholder="Search...">
                     <div class="input-group-append">
                         <button class="btn btn-outline-success rounded-right" type="button"><i class="fas fa-search"></i></button>
                     </div>
                 </div>
             </form>
+
+          
 
                 <div class="btn-yes">
                         <div class="btn-group">
@@ -63,12 +63,37 @@
         </div>
     </nav>
 
+    <div class="col-md-auto ">
+        <form class="ml-3 my-auto d-inline w-75 .d-none .d-sm-block .d-md-none"> <!-- WIDTH = 75%-->
+          <div class="input-group">
+                  <div class="btn-group"> <!-- START OF CATEOGORY SELECTOR-->
+                          <button type="button" class="btn  btn-secondary rounded-left ">All</button>
+                          <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                          </button>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">All Categories</a>
+                            <a class="dropdown-item" href="#">Lockdown</a>
+                            <a class="dropdown-item" href="#">ABC Super Wax</a>
+                            <a class="dropdown-item" href="#">ABC Wax</a>
+                            <a class="dropdown-item" href="#">ATL Wax</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Sale  <span class="badge badge-warning"> 40% off</span></a>
+                          </div>
+                        </div>
+              <input type="search" class="form-control border-left-0 " placeholder="Search...">
+              <div class="input-group-append">
+                  <button class="btn btn-outline-success rounded-right" type="button"><i class="fas fa-search"></i></button>
+              </div>
+          </div>
+      </form>
+
     <!-- PAGE CONTENT-->
 <br>
     <div class="container">
             <div class="card-deck">
               <div class="card border-success shadow-lg">
-                <img src="1.jpeg" class="card-img-top" alt="...">
+                <img src="img/1.jpeg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Sale! <span class="badge badge-warning">40% off</span></h5>
                   <p class="card-text">Sale Description</p>
@@ -79,8 +104,8 @@
                 </div>
               </div>
               <div class="card border-success shadow-lg">
-                <img src="2.jpg" class="card-img-top" alt="...">
-                <div class="card-body border-success">
+                <img src="img/2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
                   <h5 class="card-title">New Item Title</h5>
                   <p class="card-text">New Item description</p>
                 </div>
@@ -100,7 +125,7 @@
           
               <div class="card-deck">
                 <div class="card shadow">
-                  <img src="product.jpg" class="card-img-top" alt="...">
+                  <img src="img/product.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -110,7 +135,7 @@
                   </div>
                 </div>
                 <div class="card shadow">
-                  <img src="product.jpg" class="card-img-top" alt="...">
+                  <img src="img/product.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -120,7 +145,7 @@
                   </div>
                 </div>
                 <div class="card shadow ">
-                  <img src="product.jpg" class="card-img-top" alt="...">
+                  <img src="img/product.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
