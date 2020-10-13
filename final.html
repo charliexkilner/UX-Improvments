@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="final.css">
+    <script src="https://kit.fontawesome.com/2fd782012f.js" crossorigin="anonymous"></script>        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>KudiGo StoreFront</title>
+</head>
+
+<body>
+<!-- BACK TO TOP BUTTON-->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><span class="arrow">↑</span> back to top</button>
+
+<!-- NAVBAR-->
+<nav class="navbar fixed-top navbar-light bg-white fixed-navbar-wrapper shadow-sm">
+    <a class="navbar-brand" href="#">Navbar</a>
+
+<!-- SEARCH BAR-->
+<form class="form-inline search-input"> 
+  <div class="input-group">
+    <div class="btn-group"> 
+      <button type="button" class="btn  btn-secondary rounded-left ">All</button>
+        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+            </button>
+              <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">All Categories</a>
+              <a class="dropdown-item" href="#">Lockdown</a>
+              <a class="dropdown-item" href="#">ABC Super Wax</a>
+              <a class="dropdown-item" href="#">ABC Wax</a>
+              <a class="dropdown-item" href="#">ATL Wax</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Sale  <span class="badge badge-warning"> 40% off</span></a>
+              </div>
+            </div>
+          <input type="search" class="form-control border-left-0 " placeholder="Search...">
+        <div class="input-group-append">
+      <button class="btn btn-outline-success rounded-right" type="button"><i class="fas fa-search"></i></button>
+    </div>
+  </div>
+</form>
+
+
+
+<!-- BUTTONS ON THE RIGHT BOTH ACCOUNT AND CART-->
+<div class="btn-yes">
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle rounded" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fas fa-user-circle"></i> Account
+        </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#"><i class="fas fa-tag"></i> Your Orders</a>
+            <a class="dropdown-item" href="#"><i class="fas fa-heart"></i> Your Likes</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+          </div>
+        </div>
+      <button type="button" class="btn btn-primary rounded"><i class="fas fa-shopping-basket"></i> Cart <span class="badge badge-light">4</span></button>
+    </div>
+  </div>
+</nav>
+<br><br>
+
+
+<!-- START OF CONTENT -->
+<br>
+<br>
+<div class="container">
+        <div class="card-deck">
+          <div class="card border-success shadow-lg">
+            <img src="img/1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sale! <span class="badge badge-warning">40% off</span></h5>
+              <p class="card-text">Sale Description</p>
+            </div>
+            <div class="card-footer border-success">
+              <small class="text-muted"><button type="button" class="btn btn-primary btn-lg btn-block rounded">See more</button>
+              </small>
+            </div>
+          </div>
+          <div class="card border-success shadow-lg">
+            <img src="img/2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">New Item Title</h5>
+              <p class="card-text">New Item description</p>
+            </div>
+            <div class="card-footer border-success">
+              <small class="text-muted"><button type="button" class="btn btn-primary btn-lg btn-block rounded">See more</button>
+              </small>
+            </div>
+          </div>
+        </div>
+      
+      
+        <!--
+          ITEMS
+        -->
+        <div class="form-group shadow">
+            <select class="form-control options" id="exampleFormControlSelect1">
+              <option>All Products</option>
+              <option>Lockdown</option>
+              <option>ABC Super Wax</option>
+            </select>
+          </div>
+      
+          <div class="card-deck">
+            <div class="card shadow">
+              <img src="img/product.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card shadow">
+              <img src="img/product.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card shadow ">
+              <img src="img/product.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- END OF PAGE CONTENT-->
+
+<!-- BACK TO TOP BUTTON-->
+<script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+              
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
